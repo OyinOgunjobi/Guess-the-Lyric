@@ -1,0 +1,43 @@
+*{
+	text-align:center;
+}
+body {
+	font-family: century gothic;
+	color: white;
+	text-decoration: none;
+}
+p {
+	color: black;
+}
+/*Initialise*/
+ul#menu, ul#menu ul.sub-menu {
+    padding:0;
+    margin: auto;
+}
+ul#menu li, ul#menu ul.sub-menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+/*Link Appearance*/
+ul#menu li a, ul#menu li ul.sub-menu li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #000000;
+    padding: 5px;
+    display:inline-block;
+}
+/*Make the parent of sub-menu relative*/
+ul#menu li {
+    position: relative;
+}
+/*sub menu*/
+ul#menu li ul.sub-menu {
+    display:none;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 100px;
+}
+ul#menu li:hover ul.sub-menu {
+    display:block;
+}
