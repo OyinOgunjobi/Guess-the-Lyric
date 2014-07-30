@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="gtl.css">
+		<title>Guess the Lyric</title>
+		<link rel="icon" type="image/png" href="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTWINDDPWOB_sEEwzbReB_k02dO_cui2f762-evVtZNt4LbXs4n">
+		<marquee behavior="alternate" scrollamount="12"><div id="img">
+			<img src="http://img.dafont.com/preview.php?text=%26guess+the+lyric%25&ttf=distracted_musician0&ext=1&size=34&psize=m&y=68" alt="Guess the Lyric">
+		</div></marquee>
+		<script type="text/javascript"></script>
+	</head>
+	<body>
+		<p>Welcome to Guess the Lyric! Choose a difficulty, artist, song title or a genre to begin!</p>
+		<ul id="menu">
+		<li>
+			<a href="#">Home</a>
+		</li>
+		<li><a href="#">Difficulty</a>
+
+			<ul class="sub-menu">
+				<li>
+					<a href="#">Easy</a>
+				</li>
+				<li>
+					<a href="#">Medium</a>
+				</li>
+				<li>
+					<a href="#">Hard</a>
+				</li>
+			</ul>
+		</li>
+		<li><a href="#">Artist</a>
+			<ul class="sub-menu">
+				<li>
+					<a href="#">Sub Menu 1</a>
+				</li>
+				<li>
+					<a href="#">Sub Menu 2</a>
+				</li>
+				<li>
+					<a href="#">Sub Menu 3</a>
+				</li>
+				<li>
+					<a href="#">Sub Menu 4</a>
+				</li>
+			</ul>
+		</li>
+		<li><a href="#">Song Title</a>
+
+			<ul class="sub-menu">
+				<li>
+					<a href="#">Sub Menu 1</a>
+				</li>
+				<li>
+					<a href="#">Sub Menu 2</a>
+				</li>
+				<li>
+					<a href="#">Sub Menu 3</a>
+				</li>
+				<li>
+					<a href="#">Sub Menu 4</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+        <a href="#">Genre</a>
+			<ul class="sub-menu">
+				<li>
+					<a href="#">Pop</a>
+				</li>
+				<li>
+					<a href="#">Hip Hop</a>
+				</li>
+				<li>
+					<a href="#">Rock</a>
+				</li>
+				<li>
+					<a href="#">EDM</a>
+				</li>
+			</ul>
+		</li>
+		</ul>
+	</body>
