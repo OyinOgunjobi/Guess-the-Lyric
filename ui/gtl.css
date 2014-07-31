@@ -5,9 +5,10 @@ body {
 	font-family: century gothic;
 	color: white;
 	text-decoration: none;
+	background-color: #AD33D6;
 }
 p {
-	color: black;
+	color: #FFFFFF;
 }
 /*Initialise*/
 ul#menu, ul#menu ul.sub-menu {
@@ -21,8 +22,8 @@ ul#menu li, ul#menu ul.sub-menu li {
 /*Link Appearance*/
 ul#menu li a, ul#menu li ul.sub-menu li a {
     text-decoration: none;
-    color: #FFFFFF;
-    background: #000000;
+    color: #AD33D6;
+    background: #FFFFFF;
     padding: 5px;
     display:inline-block;
 }
@@ -40,4 +41,11 @@ ul#menu li ul.sub-menu {
 }
 ul#menu li:hover ul.sub-menu {
     display:block;
+}
+button {
+    text-decoration: none;
+    color: #AD33D6;
+    background: #FFFFFF;
+    padding: 5px;
+	border: 0px;
 }
