@@ -48,4 +48,8 @@ button {
     background: #FFFFFF;
     padding: 5px;
 	border: 0px;
+	border-radius: 5px;
+}
+span{
+	color: #FF0000;
 }
