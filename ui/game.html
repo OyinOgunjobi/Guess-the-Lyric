@@ -11,7 +11,7 @@
 			</div></marquee>
 		</a>
 	</head>
-	<body>
+	<body style=" background: url(https://pbs.twimg.com/media/Bt-ykEqCQAEHyoD.png); background-size:100%; background-repeat: no-repeat;">
 				<ul id="menu">
 		<li><a href="#">Difficulty</a>
 
@@ -62,15 +62,15 @@
 		</li>
 		</ul>
 		<p style="font-size: 30px">Bad - Michael Jackson</p>
-		onload=""
-		<button id="start" onclick="return gameNS()">Start Game!</button><br>
-		<button type="button" class="lyric1" id="lyric1_yes" onclick="return gameYes()">I'm</button>
-		<button type="button" class="lyric1" id="lyric1_no1" onclick="return gameNo()">You're</button>
-		<button type="button" class="lyric1" id="lyric1_no2" onclick="return gameNo()">We're</button>
-		<button type="button" class="lyric1" id="lyric1_no3" onclick="return gameNo()">They're</button>
+		<p id="correctLyrics">Because I'm <span>bad</span>, I'm bad, <span>come</span> on</p>
+		<p style="font-size: 17px;">Choose the next lyric:</p>
+		<button type="button" class="lyric1" id="lyric1_yes" onclick="return play()">I'm</button>
+		<button type="button" class="lyric1" id="lyric1_no1" onclick="return play()">You're</button>
+		<button type="button" class="lyric1" id="lyric1_no2" onclick="return play()">We're</button>
+		<button type="button" class="lyric1" id="lyric1_no3" onclick="return play()">They're</button>
 		<br>
-		<button type="button" name="lyric2" id="lyric2_no1" onclick="return gameNo()">lazy</button>
-		<button type="button" name="lyric2" id="lyric2_yes" onclick="return gameYes()">bad</button>
-		<button type="button" name="lyric2" id="lyric2_no2" onclick="return gameNo()">sorry</button>
-		<button type="button" name="lyric2" id="lyric2_no3" onclick="return gameNo()">angry</button>
+		<!--<button type="button" class="lyric2" id="lyric2_yes" onclick="return play()">bad</button>
+		<button type="button" class="lyric2" id="lyric2_no1" onclick="return play()">lazy</button>
+		<button type="button" class="lyric2" id="lyric2_no2" onclick="return play()">sorry</button>
+		<button type="button" class="lyric2" id="lyric2_no3" onclick="return play()">angry</button>-->
 	</body>
