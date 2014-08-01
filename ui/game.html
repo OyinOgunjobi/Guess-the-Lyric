@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="gtl.css">
+		<script src="game.js"></script>
+		<title>Guess the Lyric</title>
+		<link rel="icon" type="image/png" href="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTWINDDPWOB_sEEwzbReB_k02dO_cui2f762-evVtZNt4LbXs4n">
+		<a href="">
+			<marquee behavior="alternate" scrollamount="12"><div id="img">
+				<img src="https://pbs.twimg.com/media/Bt3QD_gIUAAnahG.jpg" alt="Guess the Lyric">
+			</div></marquee>
+		</a>
+	</head>
+	<body>
+				<ul id="menu">
+		<li><a href="#">Difficulty</a>
+
+			<ul class="sub-menu">
+				<li>
+					<a href="file:///C:/Users/Oyin/Documents/Festival%20of%20Code/FoC%20Guess%20the%20Lyric%20-%20Game(Easy).html">Easy</a>
+				</li>
+				<li>
+					<a href="#">Medium</a>
+				</li>
+				<li>
+					<a href="#">Hard</a>
+				</li>
+			</ul>
+		</li>
+		<li><a href="#">Artist</a>
+			<ul class="sub-menu">
+				<li>
+					<a href="#">Artist</a>
+				</li>
+				<li>
+					<a href="#">Artist</a>
+				</li>
+				<li>
+					<a href="#">Artist</a>
+				</li>
+				<li>
+					<a href="#">Artist</a>
+				</li>
+			</ul>
+		</li>
+		<li><a href="#">Song Title</a>
+
+			<ul class="sub-menu">
+				<li>
+					<a href="#">Bad</a>
+				</li>
+				<li>
+					<a href="#">Song</a>
+				</li>
+				<li>
+					<a href="#">Song</a>
+				</li>
+				<li>
+					<a href="#">Song</a>
+				</li>
+			</ul>
+		</li>
+		</ul>
+		<p style="font-size: 30px">Bad - Michael Jackson</p>
+		onload=""
+		<button id="start" onclick="return gameNS()">Start Game!</button><br>
+		<button type="button" class="lyric1" id="lyric1_yes" onclick="return gameYes()">I'm</button>
+		<button type="button" class="lyric1" id="lyric1_no1" onclick="return gameNo()">You're</button>
+		<button type="button" class="lyric1" id="lyric1_no2" onclick="return gameNo()">We're</button>
+		<button type="button" class="lyric1" id="lyric1_no3" onclick="return gameNo()">They're</button>
+		<br>
+		<button type="button" name="lyric2" id="lyric2_no1" onclick="return gameNo()">lazy</button>
+		<button type="button" name="lyric2" id="lyric2_yes" onclick="return gameYes()">bad</button>
+		<button type="button" name="lyric2" id="lyric2_no2" onclick="return gameNo()">sorry</button>
+		<button type="button" name="lyric2" id="lyric2_no3" onclick="return gameNo()">angry</button>
+	</body>
